@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* colors 
+
+
+#4CAF4F   --->  green
+#F5F7FA   --->  light
+#263238   --->  footer
+
+
+
+*/
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000000 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  transition: transform 0.9s linear, background-color 0.9s linear;
+}
+
+/* Smooth scrolling */
+html {
+  font-family: Arial, Helvetica, sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+::placeholder {
+  color: white;
+}
